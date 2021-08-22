@@ -16,9 +16,13 @@ namespace Methods
         {
             Console.WriteLine("Welcome to My Guessing Game!");
             Console.WriteLine("Do you want to continue?");
-
+            Console.WriteLine("Y/N");
+            Console.Clear();
         }
 
-        static void User
+        static void GetAnAnswer()
+        {
+
+        }
     }
 }
