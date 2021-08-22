@@ -20,9 +20,54 @@ namespace Methods
             Console.Clear();
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         static void GetAnAnswer()
         {
 
         }
-    }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        static int GameLoop()
+        {
+            while ()
+            {
+
+            }
+            if ()
+            { 
+
+            }
+
+        }
+
+        static void GameOver()
+        {
+            if (Counter <= 0)
+            {
+                Console.WriteLine("Game Over");
+                Console.WriteLine("Play Again?");
+                Console.ReadLine();
+                //if yes:
+                //Counter = 10;
+                //no:
+                //  break
+            }
+
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        static void PlayAgain()
+            {Console.WriteLine("Thanks for playing!");
+            Console.WriteLine();
+            Console.WriteLine("Do you want to play again?");
+            Console.WriteLine("Y/N");
+            Console.ReadLine();
+            }
+}
 }
